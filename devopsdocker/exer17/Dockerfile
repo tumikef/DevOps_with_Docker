@@ -15,4 +15,4 @@
  RUN chmod +x script.sh
 			
 # When running Docker run the command will be ./hello.sh
- CMD ["./script.sh"]
+ ENTRYPOINT ["./script.sh"]
